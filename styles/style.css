@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95%;
+    /* background-color: red; */
+    margin: 0px auto;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.ul li{
+    margin: 0px 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+@media(max-width:768px){
+    .nav{
+        flex-direction: column;
+    }
+}
