@@ -40,7 +40,7 @@ position: relative;}
 .container2{position: relative;}
 .captioncont{position: absolute;
     width: 500px;
-top: 35%;
+top: 15%;
 left: 5%;}
 
 .btn{padding: 0 20px;
@@ -48,11 +48,12 @@ border: 2px solid black;}
 
 .alignbtm{display: flex;
     justify-content: center;
-    width: 110px;
+    width: 100px;
     font-size: 13.5px;
     font-weight: bold;
 flex-direction: column;
 align-items: center;
+text-align: center;
 text-decoration: none;
 color: black;}
 
@@ -60,8 +61,17 @@ color: black;}
 text-decoration: underline;}
 
 .center{display: flex;
-    margin-top: 50px;
-justify-content: space-around;}
+    margin-top: 70px;
+justify-content: space-between;
+padding: 0 120px;}
+
+.sec3{align-items: center;
+    justify-content: space-between;
+    padding: 0 ;
+    width: 340px;
+}
+.contsec3{display: flex;
+justify-content: center;}
 
 
 
