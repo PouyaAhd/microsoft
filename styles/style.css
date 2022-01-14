@@ -17,13 +17,14 @@
     list-style: none;
 }
 .ul li{
-    margin: 0px 10px;
+    margin: 0px 13px;
+    
 }
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 15px 0px;
 }
 
 .ul a{text-decoration: none;
@@ -37,7 +38,8 @@ color: black;}
 .slider{width: 100%;
 position: relative;}
 
-.container2{position: relative;}
+.container2{position: relative;
+}
 .captioncont{position: absolute;
     width: 500px;
 top: 15%;
@@ -67,7 +69,6 @@ padding: 0 120px;}
 
 .sec3{align-items: center;
     justify-content: space-between;
-    padding: 0 ;
     width: 340px;
 }
 .contsec3{display: flex;
