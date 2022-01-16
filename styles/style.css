@@ -36,6 +36,7 @@ color: black;}
 color: black;}
 
 .slider{width: 100%;
+    
 position: relative;}
 
 .container2{position: relative;
@@ -46,6 +47,7 @@ top: 15%;
 left: 5%;}
 
 .btn{padding: 0 20px;
+    width: 250px;
 border: 2px solid black;}
 
 .alignbtm{display: flex;
@@ -68,12 +70,24 @@ justify-content: space-between;
 padding: 0 120px;}
 
 .sec3{align-items: center;
-    justify-content: space-between;
-    width: 340px;
+    padding: 0 10px;
+    width: 550px;
 }
 .contsec3{display: flex;
-justify-content: center;}
+    margin: 10px 0;
+justify-content: space-around;}
 
+.contslide{position: relative;}
+.captslide{position: absolute;
+top: 40%;
+left: 5%;}
+
+.btn1{background-color: black;
+color: white;
+text-decoration: none;
+padding: 10px 15px;}
+
+.btn1:hover{color: white;}
 
 
 
