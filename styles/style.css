@@ -71,7 +71,7 @@ padding: 0 120px;}
 
 .sec3{align-items: center;
     padding: 0 10px;
-    width: 550px;
+    max-width: 550px;
 }
 .contsec3{display: flex;
     margin: 10px 0;
