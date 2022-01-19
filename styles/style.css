@@ -186,4 +186,28 @@
     border-bottom: 2px solid rgb(75, 124, 197);
 }
 
+.dropdown1{display: flex;
+    /* background-color: rgb(228, 227, 227); */
+    justify-content: space-between;
+padding: 5px 15px;
+}
+.dropdown1 li{padding: 10px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 13px;
+font-weight: bold;}
+.dropdown1 a{ font-weight: lighter;
+font-size: 13px;}
+.dropdown1 a:hover{text-decoration: underline;}
+
+ul{
+    list-style-type: none;}
+
+    .btmdrop{text-align: center;
+        align-items: center;
+    font-size: 15px;
+    padding: 5px;
+background-color: rgb(236, 236, 236);}
+
+.btmdrop a:hover{text-decoration: underline;}
 
