@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: red; */
 }
 
 
@@ -16,10 +17,13 @@
     align-items: center;
     list-style: none;
 }
+
+
+
 .ul li{
     margin: 0px 13px;
-    
 }
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -27,104 +31,159 @@
     padding: 15px 0px;
 }
 
-.ul a{text-decoration: none;
+.ul a{
+    text-decoration: none;
     font-size: 13px;
-color: black;}
-
-.ul a:hover{text-decoration: underline 2.5px;
-    text-underline-offset: 2px;
-color: black;}
-
-.slider{width: 100%;
-    
-position: relative;}
-
-.container2{position: relative;
+    color: black;
 }
-.captioncont{position: absolute;
+
+
+.ul a:hover{
+    text-decoration: underline 2.5px;
+    text-underline-offset: 2px;
+    color: black;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+
+.container2{
+    position: relative;
+}
+
+.captioncont{
+    position: absolute;
     width: 500px;
-top: 15%;
-left: 5%;}
+    top: 15%;
+    left: 5%;
+}
 
-.btn{padding: 0 20px;
+
+.btn{
+    padding: 0 20px;
     width: 250px;
-border: 2px solid black;}
+    border: 2px solid black;
+}
 
-.alignbtm{display: flex;
+
+.alignbtm{
+    display: flex;
     justify-content: center;
     width: 100px;
     font-size: 13.5px;
     font-weight: bold;
-flex-direction: column;
-align-items: center;
-text-align: center;
-text-decoration: none;
-color: black;}
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
 
-.alignbtm:hover{color: black;
-text-decoration: underline;}
+.alignbtm:hover{
+    color: black;
+    text-decoration: underline;
+}
 
-.center{display: flex;
+.center{
+    display: flex;
     margin-top: 70px;
-justify-content: space-between;
-padding: 0 120px;}
+    justify-content: space-between;
+    padding: 0 120px;
+}
 
-.sec3{align-items: center;
+.sec3{
+    align-items: center;
     padding: 0 10px;
     max-width: 550px;
 }
-.contsec3{display: flex;
+.contsec3{
+    display: flex;
+    flex-direction: row;
     margin: 10px 0;
-justify-content: space-around;}
-
-.contslide{position: relative;}
-.captslide{position: absolute;
-top: 40%;
-left: 5%;}
-
-.btn1{background-color: black;
-color: white;
-text-decoration: none;
-padding: 10px 15px;}
-
-.btn1:hover{color: white;}
-
-.ending{text-align: center;
-background-color: rgb(219, 219, 219);
-padding: 30px;
-margin: 30px 0;}
-
-.socialList{list-style-type: none;
-display: flex;}
-
-.socialItem{padding: 0 15px 0px 5px;}
-
-.socialCont{display: flex;
-    padding: 0 100px;
-align-items: center;}
-
-.footer{display: flex;
-    justify-content: space-between;
-padding: 90px;
-background-color: rgb(236, 234, 234);
+    justify-content: space-around;
 }
 
-.ulFooter{list-style-type: none;
-padding: 10px;}
+.contslide{
+    position: relative;
+}
 
-.ulFooter li{font-size: 20px;
+.captslide{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+
+.btn1{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.btn1:hover{
+    color: white;
+}
+
+.ending{
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.socialList{
+    list-style-type: none;
+    display: flex;
+}
+
+.socialItem{
+    padding: 0 15px 0px 5px;
+}
+
+.socialCont{
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    background-color: rgb(236, 234, 234);
+}
+
+.ulFooter{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.ulFooter li{
+    font-size: 20px;
     color: rgb(94, 94, 94);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-.ulFooter li a{color: black;
+.ulFooter li a{
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-decoration: none;
-font-size: 11px;}
+    text-decoration: none;
+    font-size: 11px;
+}
 
-.btn4{text-decoration: none;
-color: rgb(75, 124, 197);
-font-weight: bold;}
-.btn4:hover{ color:rgb(75, 124, 197);
-border-bottom: 2px solid rgb(75, 124, 197);}
+.btn4{
+    text-decoration: none;
+    color: rgb(75, 124, 197);
+    font-weight: bold;
+}
+
+
+.btn4:hover{ 
+    color:rgb(75, 124, 197);
+    border-bottom: 2px solid rgb(75, 124, 197);
+}
 
 
