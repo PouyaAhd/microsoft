@@ -153,6 +153,7 @@
 }
 
 .footer{
+    margin: 0;
     display: flex;
     justify-content: space-between;
     padding: 90px;
@@ -284,6 +285,7 @@ background-color: rgb(236, 236, 236);}
     }
     .center img{width: 20px;}
     .pc{width: 300px;}
+    .captioncont{top: 1%;}
     
     
 }
