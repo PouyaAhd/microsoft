@@ -259,6 +259,21 @@ background-color: rgb(236, 236, 236);}
 
         .smallNav{list-style-type: none;
         display: flex;}
+        .smallUl{display: flex;}
+        .smallUl li a{text-decoration: none;
+            padding: 10px;
+            color: black;}
+        .smallUl li{
+        align-items: center;}
+        .parentUl{display: flex;
+            display: none;
+            padding-right: 10px;
+        justify-content: center;
+        padding-top: 10px;
+        
+        
+    justify-content: space-between;}
+        
         
     
 .ul6{}
@@ -306,6 +321,7 @@ background-color: rgb(236, 236, 236);}
         /* .slider3{dis} */
         .captioncont{top: 10%;}
         .smallNav{display: block;}
+        .parentUl{display: flex;}
 }
 
 @media(max-width:700px){
